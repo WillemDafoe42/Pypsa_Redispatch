@@ -1,0 +1,18 @@
+name: pypsa
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - six >= 1.13.0
+  - numpy
+  - pyomo
+  - scipy
+  - pandas>=1.1.0
+  - pytables
+  - matplotlib
+  - networkx>=1.10
+  - pyomo>=5.7.0
+  - cartopy>=0.16
+#  - coincbc
+  - glpk
+  - gurobi::gurobi

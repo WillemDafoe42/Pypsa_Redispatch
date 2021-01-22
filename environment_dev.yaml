@@ -1,0 +1,14 @@
+name: pypsa
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python
+  - pip
+  - pytest
+  - pytest-cov
+  - twine
+  - pip:
+    - pypower
+    - pandapower>=2.0
